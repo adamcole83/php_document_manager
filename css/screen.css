@@ -1,0 +1,50 @@
+
+@import url('/css/base.css');
+@import url('/css/links.css');
+@import url('/css/style.css');
+@import url('/css/menu.css');
+@import url('/css/scrollable.css');
+@import url('/css/ajfixes.css');
+@import url('/css/banners.css');
+@import url('styles.css');
+
+.main-banner {
+	margin-top: -10px;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+#members {
+	margin: 20px auto;
+}
+#members tr td {
+	padding: 20px 0;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+#members tr td.img {
+	text-align: right;
+	padding-right: 20px;
+}
+#members tr td.text {
+	padding-left: 20px;
+}
+
+#container {
+	width: 750px;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 9px;
+	background-color:#FFFFFF;
+	
+}
+#contentContainer {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	float: none;
+}
+#middleContainer {
+	padding: 0;
+	margin: 0;
+	float: none;
+}
