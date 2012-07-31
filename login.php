@@ -7,7 +7,9 @@
 	if($session->is_logged_in()) redirect_to('index.php');
 ?>
 <? include_global_template('masthead.php') ?>
-	
+	<style type="text/css">
+		@import url('/admin/css/login2.css');
+	</style>
 	<div id="page" class="off">
 		<div id="header">
 			<h2>Secure Access</h2>
@@ -16,7 +18,7 @@
 			<noscript><p class="noscript">Javascript is required</p></noscript>
 			
 			<form id="login" class="auth" action="" method="post">
-				<div id="dialog">Authentication required.</div>
+				<div id="dialog"></div>
 				<label for="username">Pawprint</label>
 				<div class="input-container">
 					<input type="text" id="username" name="username" class="required" />
